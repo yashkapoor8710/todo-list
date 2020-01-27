@@ -24,6 +24,72 @@
   color: white;
 }
 
+.todo-text {
+  width: 50%;
+  float: none;
+  margin: auto;
+  text-align: center;
+}
+
+form.todo-form input {
+  -webkit-appearance: none;
+  border: 0;
+  box-shadow: 0px 1px 10px -2px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+form.todo-form input:last-child {
+  background: #000;
+  color: #fff;
+  border: 2px solid #101010;
+}
+
+form.todo-form p {
+  text-align: left;
+}
+
+form.todo-form input.edit-todo {
+  background: none;
+  border: none;
+  color: #000;
+  margin: 0px;
+  width:50%;
+}
+
+ul.todo-lis {
+  margin: 0px auto;
+  padding: 5px;
+  list-style: none;
+  width: 300px;
+  margin-top: 20px;
+}
+
+ul.todo-lis span {
+  float: left;
+  width: 70%;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+ul.todo-lis input {
+  float: left;
+  width: 70%;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+ul.todo-lis button {
+  -webkit-appearance: none;
+  border: none;
+  background: no-repeat;
+  color: #f00;
+  text-align: right;
+  float: right;
+  width: 20%;
+  font-size: 14px;
+}
+
 .App-link {
   color: #61dafb;
 }
